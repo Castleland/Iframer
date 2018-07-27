@@ -2,7 +2,7 @@
 
  *  Advanced iframe pro external workaround file v7.5.x
 
- *  Created: 2018-07-27 12:24:41
+ *  Created: 2018-07-27 15:30:00
 
 */
 
@@ -1502,7 +1502,7 @@ if (doIt) {
 
   if (typeof resize_on_element_resize === 'undefined') {
 
-      var resize_on_element_resize = '';
+      var resize_on_element_resize = '#framer';
 
   }
 
