@@ -2,7 +2,7 @@
 
  *  Advanced iframe pro external workaround file v7.5.x
 
- *  Created: 2018-07-27 12:02:00
+ *  Created: 2018-07-27 12:14:46
 
 */
 
@@ -1330,13 +1330,13 @@ if (doIt) {
 
   if (typeof domainMultisite === 'undefined') {
 
-      var domainMultisite = 'false';
+      var domainMultisite = 'true';
 
   }
 
   if (typeof post_message_domain === 'undefined') {
 
-      var post_message_domain = 'http://dicdevelopmenttrust.com';
+      var post_message_domain = '*';
 
   }
 
