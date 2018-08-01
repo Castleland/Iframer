@@ -1,6 +1,6 @@
 /**
  *  Advanced iframe pro external workaround file v7.5.x
- *  Created: 2018-08-01 10:33:59
+ *  Created: 2018-08-01 10:59:07
 */
 /* jslint devel: true, evil: false */
 if (typeof domain_advanced_iframe === 'undefined') {
@@ -705,7 +705,7 @@ if (doIt) {
       var updateIframeHeight = 'true';
   }
   if (typeof onload_resize_delay === 'undefined') {
-      var onload_resize_delay = 0;
+      var onload_resize_delay = 300;
   }
   if (typeof keepOverflowHidden === 'undefined') {
       var keepOverflowHidden = 'false';
