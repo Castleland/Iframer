@@ -1,6 +1,6 @@
 /**
  *  Advanced iframe pro external workaround file v7.5.x
- *  Created: 2018-08-01 10:59:07
+ *  Created: 2018-08-03 14:32:04
 */
 /* jslint devel: true, evil: false */
 if (typeof domain_advanced_iframe === 'undefined') {
@@ -753,7 +753,7 @@ if (doIt) {
       var resize_on_element_resize = 'div#top_container';
   }
   if (typeof resize_on_element_resize_delay === 'undefined') {
-      var resize_on_element_resize_delay = '';
+      var resize_on_element_resize_delay = '100';
   }
   if (typeof add_iframe_url_as_param === 'undefined') {
       var add_iframe_url_as_param = 'false';
