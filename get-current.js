@@ -1,3 +1,1 @@
-    <script>
-    document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.hostname;
-    </script>
+document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.hostname;
